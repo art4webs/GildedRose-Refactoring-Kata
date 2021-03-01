@@ -15,7 +15,7 @@ class ApprovalTest extends TestCase
         $argv[1] = 31;
 
         ob_start();
-        require_once __DIR__ . '/../fixtures/texttest_fixture.php';
+        require_once __DIR__ . '/fixtures/texttest_fixture.php';
         $output = ob_get_contents();
         ob_end_clean();
 
